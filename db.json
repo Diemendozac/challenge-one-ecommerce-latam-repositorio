@@ -1,0 +1,116 @@
+{
+  "posts": [
+    { "id": 1, "title": "json-server", "author": "dudul" },
+    { "id": 2, "title": "json", "author": "dudul" }
+  ],
+  "products": [
+      {
+          "id": 1,
+          "title": "MILKY COFFEE",
+          "description": "KOBAK FLAVOUR PREMIUM , kemasan 50gr sudah termasuk kertas papir kemasan menggunakan standing pouch zipper kedap udara dan di lapisi almunium foil,sehingga bisa buka tutup dan praktis di bawa.",
+          "img": "#",
+          "price": 28000,
+          "rating": 4,
+          "category": "TOBACCO FLAVOUR"
+          },
+          {
+          "id": 2,
+          "title": "HONEY CHOCOLATE",
+          "description": "KOBAK FLAVOUR PREMIUM , kemasan 50gr sudah termasuk kertas papir kemasan menggunakan standing pouch zipper kedap udara dan di lapisi almunium foil,sehingga bisa buka tutup dan praktis di bawa.",
+          "img": "#",
+          "price": 28000,
+          "rating": 4.8,
+          "category": "TOBACCO FLAVOUR"
+          },
+          {
+          "id": 3,
+          "title": "SWEET DURIAN",
+          "description": "KOBAK FLAVOUR PREMIUM , kemasan 50gr sudah termasuk kertas papir kemasan menggunakan standing pouch zipper kedap udara dan di lapisi almunium foil,sehingga bisa buka tutup dan praktis di bawa.",
+          "img": "#",
+          "price": 28000,
+          "rating": 3.6,
+          "category": "TOBACCO FLAVOUR"
+          },
+          {
+          "id": 4,
+          "title": "GAYO WHISKEY",
+          "description": "KOBAK FLAVOUR PREMIUM , kemasan 50gr sudah termasuk kertas papir kemasan menggunakan standing pouch zipper kedap udara dan di lapisi almunium foil,sehingga bisa buka tutup dan praktis di bawa.",
+          "img": "#",
+          "price": 30000,
+          "rating": 5,
+          "category": "TOBACCO FLAVOUR"
+          },
+          {
+          "id": 5,
+          "title": "GAYO CREAMY COFFEE",
+          "description": "KOBAK FLAVOUR PREMIUM , kemasan 50gr sudah termasuk kertas papir kemasan menggunakan standing pouch zipper kedap udara dan di lapisi almunium foil,sehingga bisa buka tutup dan praktis di bawa.",
+          "img": "#",
+          "price": 30000,
+          "rating": 4.3,
+          "category": "TOBACCO FLAVOUR"
+          },
+          {
+          "id": 6,
+          "title": "GAYO BUTTER MILKY",
+          "description": "KOBAK FLAVOUR PREMIUM , kemasan 50gr sudah termasuk kertas papir kemasan menggunakan standing pouch zipper kedap udara dan di lapisi almunium foil,sehingga bisa buka tutup dan praktis di bawa.",
+          "img": "#",
+          "price": 30000,
+          "rating": 4.5,
+          "category": "TOBACCO FLAVOUR"
+          },
+          {
+          "id": 7,
+          "title": "ARABICA HONEY PROCESS",
+          "description": "COFFEE PREMIUM, Kopi biji arabica ciwidey honey process 150gr roastbean, Kopi yang kami jual masih keadaan biji (belum di giling menjadi bubuk), Spesies : Arabica, Varietas : Multi Varietas, Ketinggian : 1.200 - 1.400 MDPL, Proses : Honey Process, Roast level : Medium, Tasting Notes : Bright Acid , Sweet like Sugar Cane , Medium Body , Clean after tast",
+          "img": "#",
+          "price": 50000,
+          "rating": 4.9,
+          "category": "COFFEE"
+          },
+          {
+          "id": 8,
+          "title": "ARABICA WINE COFFE",
+          "description": "COFFEE PREMIUM, Kopi biji arabica Wine 100gr roastbean, Kopi yang kami jual masih keadaan biji (belum di giling menjadi bubuk), Spesies : Arabica, Varietas : Multi Varietas, Ketinggian : 1.200 - 1.400 MDPL, Roast level : Medium, Tasting Notes : Bright Acid , Sweet like Sugar Cane , Medium Body , Clean after tast",
+          "img": "#",
+          "price": 43000,
+          "rating": 4.4,
+          "category": "COFFEE"
+          },
+          {
+          "id": 9,
+          "title": "ARABICA FULL WASH",
+          "description": "COFFEE PREMIUM, Kopi biji arabica Full Wash 100gr roastbean, Kopi yang kami jual masih keadaan biji (belum di giling menjadi bubuk), Spesies : Arabica, Varietas : Multi Varietas, Ketinggian : 1.200 - 1.400 MDPL, Roast level : Medium, Tasting Notes : Bright Acid , Sweet like Sugar Cane , Medium Body , Clean after tast",
+          "img": "#",
+          "price": 43000,
+          "rating": 4.7,
+          "category": "COFFEE"
+          },
+          {
+          "id": 10,
+          "title": "ARABICA HONNEY",
+          "description": "COFFEE PREMIUM, Kopi biji arabica Full Wash 100gr roastbean, Kopi yang kami jual masih keadaan biji (belum di giling menjadi bubuk), Spesies : Arabica, Varietas : Multi Varietas, Ketinggian : 1.200 - 1.400 MDPL, Proses : Honey Process, Roast level : Medium, Tasting Notes : Bright Acid , Sweet like Sugar Cane , Medium Body , Clean after tast",
+          "img": "#",
+          "price": 43000,
+          "rating": 4.5,
+          "category": "COFFEE"
+          },
+          {
+            "id": 11,
+            "title": "NATURAL COFFE",
+            "description": "COFFEE PREMIUM, Kopi biji arabica 100gr roastbean, Kopi yang kami jual masih keadaan biji (belum di giling menjadi bubuk), Spesies : Arabica, Varietas : Multi Varietas, Ketinggian : 1.200 - 1.400 MDPL, Roast level : Medium, Tasting Notes : Bright Acid , Sweet like Sugar Cane , Medium Body , Clean after tast",
+            "img": "#",
+            "price": 43000,
+            "rating": 5,
+            "category": "COFFEE"
+          }
+    ],
+  "categories": [
+      "TOBACCO FLAVOUR",
+      "COFFEE"
+
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 }
+  ],
+  "profile": { "name": "typicode" }
+}
