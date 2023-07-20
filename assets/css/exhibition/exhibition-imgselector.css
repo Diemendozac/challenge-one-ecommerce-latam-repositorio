@@ -1,0 +1,11 @@
+.exhibition__imgselector {
+  border: none;
+  color: blanchedalmond;
+  margin: 0 0.1rem;
+  height: 2px;
+  width: 4px;
+}
+
+.exhibition__imgselector.active {
+  background: black;
+}

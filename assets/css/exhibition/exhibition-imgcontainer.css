@@ -1,0 +1,10 @@
+.exhibition__imgcontainer {
+  width: 50%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(131,139,121);
+  background: linear-gradient(90deg, rgba(131,139,121,1) 0%, rgba(131,131,148,0.4374124649859944) 35%, rgba(201,201,201,0.3785889355742297) 100%);
+}

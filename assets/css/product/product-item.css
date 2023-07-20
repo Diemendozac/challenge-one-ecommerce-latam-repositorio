@@ -1,0 +1,9 @@
+.product__item {
+  margin: 0 0.5rem;
+  width: 260px;
+  height: 370px;
+}
+
+.product__item:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}

@@ -1,0 +1,8 @@
+.exhibition__paragraph {
+  font-size: 1.5rem;
+  font-weight: 300;
+  font-style: light;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--color-paragraph);
+}

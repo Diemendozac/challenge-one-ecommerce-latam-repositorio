@@ -1,0 +1,8 @@
+.nav__button {
+  width: 11rem;
+  height: 2.5rem;
+  font-weight: 700;
+  border-radius: 7px;
+  border: none;
+  font-size: 1rem;
+}

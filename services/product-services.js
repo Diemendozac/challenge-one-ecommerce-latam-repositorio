@@ -12,5 +12,5 @@ const getRequest = async () => {
 console.log(getRequest());
 
 export const productServices = {
-  getRequest
+  
 }

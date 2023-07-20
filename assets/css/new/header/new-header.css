@@ -1,0 +1,7 @@
+.new__header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2.5%;
+  margin-bottom: 1.5rem;
+}

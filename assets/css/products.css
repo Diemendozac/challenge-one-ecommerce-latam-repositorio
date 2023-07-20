@@ -1,0 +1,6 @@
+.products {
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+}

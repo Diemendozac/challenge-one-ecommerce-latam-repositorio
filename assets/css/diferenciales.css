@@ -1,3 +1,7 @@
 .diferenciales {
-  
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-top: 2rem;
+  height: 125px;
 }

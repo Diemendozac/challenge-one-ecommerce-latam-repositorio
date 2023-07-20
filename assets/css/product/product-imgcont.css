@@ -1,0 +1,6 @@
+.product__imgcont {
+  background: #FAFAFA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

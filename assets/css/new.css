@@ -1,3 +1,6 @@
 .new {
-  
+  display: flex;
+  flex-direction: column;
+  padding: 0 2.5%;
+  margin-bottom: 2rem;
 }
