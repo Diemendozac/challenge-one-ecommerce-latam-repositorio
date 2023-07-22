@@ -1,5 +1,9 @@
 .footer__alura {
   display: flex;
-  
   align-items: center;
+  margin-bottom: 1.25rem;
+}
+
+.footer__letras {
+
 }

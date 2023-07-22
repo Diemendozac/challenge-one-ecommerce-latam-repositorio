@@ -1,4 +1,17 @@
 .footer__column {
   display: flex;
   flex-direction: column;
+  margin-bottom: 1.5rem;
+}
+
+.footer__title {
+  color: var(--color-titulo);
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.footer__link {
+  color: var(--color-paragraph);
+  text-decoration: none;
+  margin-bottom: 1rem;
 }

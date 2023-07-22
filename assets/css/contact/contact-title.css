@@ -1,0 +1,6 @@
+.contact__title {
+  color: var(--color-titulo);
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding-left: 2.5%;
+}

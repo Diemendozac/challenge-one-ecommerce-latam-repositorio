@@ -1,0 +1,7 @@
+.contact__div {
+  width: 23rem;
+  position: absolute;
+  left: 65%;
+  margin-top: 0.65rem;
+  z-index: 3;
+}

@@ -1,0 +1,7 @@
+.contact__logo {
+  display: flex;
+  align-items: center;
+  margin: 2rem;
+  position: relative;
+  right: 24%;
+}
