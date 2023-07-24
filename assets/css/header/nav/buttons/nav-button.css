@@ -6,3 +6,10 @@
   border: none;
   font-size: 1rem;
 }
+
+@media (max-width: 1024px) {
+  .nav__button {
+    width: 9rem;
+  }
+
+}

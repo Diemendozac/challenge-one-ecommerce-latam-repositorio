@@ -1,3 +1,10 @@
 .diferenciales__item {
   display: flex;
 }
+
+@media (max-width: 1024px) {
+  .diferenciales__item {
+    display: inline;
+    width: 10rem;
+  }
+}

@@ -1,5 +1,13 @@
 .exhibition__title {
   font-size: 3rem;
   font-weight: 700;
-  font-family: 'Scada', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width: 1024px) {
+  .exhibition__title {
+    font-size: 2.75rem;
+  
+  }
+
 }

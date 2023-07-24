@@ -8,3 +8,9 @@
   background: rgb(131,139,121);
   background: linear-gradient(90deg, rgba(131,139,121,1) 0%, rgba(131,131,148,0.4374124649859944) 35%, rgba(201,201,201,0.3785889355742297) 100%);
 }
+
+@media (max-width: 1024px) {
+  .exhibition__imgcontainer {
+    width: auto;
+  }
+}

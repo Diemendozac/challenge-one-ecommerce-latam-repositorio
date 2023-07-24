@@ -5,3 +5,10 @@
   margin-top: 0.65rem;
   z-index: 3;
 }
+@media (max-width: 1024px) {
+  .contact__div {
+    width: 22rem;
+    left: 60%;
+  }
+
+}
