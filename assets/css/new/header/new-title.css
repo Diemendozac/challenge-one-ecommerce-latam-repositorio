@@ -3,3 +3,9 @@
   font-size: 2.5rem;
   font-weight: 700;
 }
+
+@media (max-width: 940px) {
+  .new__title {
+    font-size: 2rem;
+  }
+}

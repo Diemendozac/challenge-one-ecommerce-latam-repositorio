@@ -4,3 +4,9 @@
   margin-bottom: 0.5rem;
   font-weight: bold;
 }
+
+@media (max-width: 768px) {
+  .diferenciales__title {
+    font-size: 1.15rem;
+  }
+}

@@ -1,0 +1,7 @@
+@media (max-width: 768px) {
+  .user__person {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem 0.5rem 0.75rem 0;
+  }
+}

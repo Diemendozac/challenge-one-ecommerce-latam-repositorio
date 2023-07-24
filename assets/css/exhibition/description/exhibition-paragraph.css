@@ -9,9 +9,13 @@
 @media (max-width: 1024px) {
   .exhibition__paragraph {
     font-size: 1.33rem;
-    font-weight: 300;
-    font-style: light;
     margin: 1.5rem 0;
-    color: var(--color-paragraph);
+  }
+}
+
+@media (max-width: 768px) {
+  .exhibition__paragraph {
+    font-size: 1.25rem;
+    margin: 1.5rem 0;
   }
 }

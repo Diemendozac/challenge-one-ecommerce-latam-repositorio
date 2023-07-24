@@ -6,3 +6,20 @@
   position: relative;
   bottom: 100px;
 }
+
+@media (max-width: 1024px) {
+  .diferenciales__user {
+    width: 20rem;
+    bottom: 75px;
+    margin-left: 4%;
+  }
+}
+
+@media (max-width: 768px) {
+  .diferenciales__user {
+    width: 12rem;
+    bottom: 43px;
+    margin-left: 3%;
+    height: auto;
+  }
+}

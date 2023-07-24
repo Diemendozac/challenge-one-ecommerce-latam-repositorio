@@ -5,3 +5,13 @@
   position: relative;
   right: 24%;
 }
+
+.contact__letras {
+  padding-left: 0.25rem;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+
+.contact__img {
+  max-height: 2rem;
+}

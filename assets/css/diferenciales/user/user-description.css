@@ -2,3 +2,10 @@
   font-weight: 500;
   color: #9f9f9f;
 }
+
+@media (max-width: 768px) {
+  .user__description {
+    font-size: 0.8rem;
+    margin-bottom: 1.5rem;
+  }
+}

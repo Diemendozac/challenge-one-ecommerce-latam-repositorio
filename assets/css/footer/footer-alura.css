@@ -5,5 +5,11 @@
 }
 
 .footer__letras {
+  padding-left: 0.25rem;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
 
+.footer__img {
+  max-height: 2rem;
 }

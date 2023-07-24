@@ -4,3 +4,9 @@
   white-space: nowrap;
   scroll-behavior: smooth;
 }
+
+@media (max-width: 768px) {
+  .products {
+    overflow: scroll;
+  }
+}

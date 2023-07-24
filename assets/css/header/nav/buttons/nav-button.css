@@ -7,7 +7,7 @@
   font-size: 1rem;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1075px) {
   .nav__button {
     width: 9rem;
   }

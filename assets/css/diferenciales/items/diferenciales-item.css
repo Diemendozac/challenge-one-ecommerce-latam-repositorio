@@ -8,3 +8,9 @@
     width: 10rem;
   }
 }
+
+@media (max-width: 768px) {
+  .diferenciales__item {
+    width: 8rem;
+  }
+}

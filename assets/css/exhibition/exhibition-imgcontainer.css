@@ -14,3 +14,9 @@
     width: auto;
   }
 }
+
+@media (max-width: 768px) {
+  .exhibition__imgcontainer {
+    height: 350px;
+  }
+}

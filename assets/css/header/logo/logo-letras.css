@@ -3,3 +3,9 @@
   font-weight: 700;
   font-family: 'Roboto', sans-serif;
 }
+
+@media (max-width: 940px) {
+  .logo__letras {
+    display: none;
+  }
+}

@@ -5,3 +5,9 @@
   border-radius: 100%;
   color: var(--color-paragraph);
 }
+
+@media (max-width: 768px) {
+  .movement__buttons {
+    display: none;
+  }
+}

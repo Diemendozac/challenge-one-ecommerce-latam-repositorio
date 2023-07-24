@@ -2,3 +2,11 @@
   height: 250px;
   width: 250px;
 }
+
+@media (max-width: 1075px) {
+  .product__img {
+    height: 225px;
+    width: 225px;
+  }
+
+}

@@ -12,3 +12,18 @@
   }
 
 }
+
+@media (max-width: 912px) {
+  .contact__div {
+    left: 55%;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .contact__div {
+    width: 20rem;
+    left: 50%;
+  }
+
+}

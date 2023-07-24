@@ -4,3 +4,13 @@
   border-bottom: 1px solid var(--color-paragraph);
   margin-bottom: 1rem;
 }
+
+@media (max-width: 768px) {
+  .footer__container {
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 330px;
+  
+  }
+
+}
