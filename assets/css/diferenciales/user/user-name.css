@@ -10,7 +10,7 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 525px) {
   .user__name {
     font-size: 0.8rem;
   }

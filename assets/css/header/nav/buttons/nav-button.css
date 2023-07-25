@@ -14,7 +14,7 @@
 
 }
 
-@media (max-width: 425px) {
+@media (max-width: 525px) {
   .nav__button {
     order: 2;
     width: 45%;

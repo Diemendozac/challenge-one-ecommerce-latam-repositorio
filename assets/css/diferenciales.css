@@ -6,7 +6,7 @@
   height: 125px;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 525px) {
   .diferenciales {
     flex-wrap: wrap;
   }

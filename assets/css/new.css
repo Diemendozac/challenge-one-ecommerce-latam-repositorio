@@ -5,7 +5,7 @@
   margin-bottom: 2rem;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 525px) {
   .new {
     margin-top: 2rem;
   }

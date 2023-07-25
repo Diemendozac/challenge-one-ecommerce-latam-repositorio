@@ -28,8 +28,10 @@
 
 }
 
-@media (max-width: 425px) {
+@media (max-width: 525px) {
   .contact__div {
-    left: 20%;
+    width: 90%;
+    left: 5%;
+    margin-top: 2rem;
   }
 }

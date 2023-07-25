@@ -10,7 +10,7 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 525px) {
   .user__img {
     max-width: 30px;
     margin-right: 0.5rem;

@@ -11,7 +11,7 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 525px) {
   .diferenciales__title {
     font-size: 0.75rem;
   }

@@ -12,7 +12,7 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 525px) {
   .user__description {
     font-size: 0.65rem;
     margin-bottom: 1.25rem;

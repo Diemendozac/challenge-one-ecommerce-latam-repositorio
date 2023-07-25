@@ -6,7 +6,7 @@
   align-items: center;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 525px) {
   .search__container {
     order: 100;
     width: 90%;
