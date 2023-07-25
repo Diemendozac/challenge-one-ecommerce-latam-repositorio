@@ -14,3 +14,12 @@
   }
 
 }
+
+@media (max-width: 524px) {
+  .footer__container {
+    height: auto;
+    flex-direction: row;
+  
+  }
+
+}

@@ -9,6 +9,6 @@
 
 @media (max-width: 525px) {
   .footer {
-    display: none;
+    padding: 3%;
   }
 }

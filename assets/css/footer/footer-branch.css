@@ -6,3 +6,16 @@
 .branch__slogan {
   color: var(--color-paragraph);
 }
+
+@media (max-width: 525px) {
+  .footer__branch {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+  }
+
+  .branch__slogan {
+    display: none;
+  }
+}

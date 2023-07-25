@@ -1,7 +1,8 @@
-.footer__contact {
-  
+.footer__icon {
+  color: var(--color-titulo);
 }
 
-.footer__icon {
-  
+.footer__networks {
+  color: var(--color-paragraph);
+  text-decoration: none;
 }
