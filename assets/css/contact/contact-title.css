@@ -4,3 +4,15 @@
   font-weight: 700;
   padding-left: 2.5%;
 }
+
+@media (max-width: 940px) {
+  .contact__title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .contact__title {
+    font-size: 1.5rem;
+  }
+}

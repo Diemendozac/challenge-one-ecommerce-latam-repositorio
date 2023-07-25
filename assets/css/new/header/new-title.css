@@ -9,3 +9,10 @@
     font-size: 2rem;
   }
 }
+
+
+@media (max-width: 425px) {
+  .new__title {
+    font-size: 1.5rem;
+  }
+}

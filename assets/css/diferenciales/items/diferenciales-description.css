@@ -1,5 +1,15 @@
+.diferenciales__description {
+  color: var(--color-paragraph);
+}
+
 @media (max-width: 768px) {
   .diferenciales__description {
     font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .diferenciales__description {
+    font-size: 0.7rem;
   }
 }

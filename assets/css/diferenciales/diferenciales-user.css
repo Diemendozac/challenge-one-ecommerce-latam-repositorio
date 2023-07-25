@@ -23,3 +23,11 @@
     height: auto;
   }
 }
+
+@media (max-width: 425px) {
+  .diferenciales__user {
+    left: 21%;
+    bottom: 42%;
+    width: 10rem;
+  }
+}

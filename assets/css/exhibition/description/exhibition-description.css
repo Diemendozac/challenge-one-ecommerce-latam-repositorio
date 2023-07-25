@@ -5,9 +5,3 @@
   align-items: flex-start;
   padding: 0 5%;
 }
-
-@media (max-width: 425px) {
-  .exhibition__description {
-    margin-bottom: 1.75rem;
-  }
-}

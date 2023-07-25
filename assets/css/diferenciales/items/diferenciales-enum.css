@@ -10,3 +10,9 @@
     font-size: 1.25rem;
   }
 }
+
+@media (max-width: 425px) {
+  .diferenciales__enum {
+    font-size: 0.9rem;
+  }
+}

@@ -4,3 +4,9 @@
   padding: 0 2.5%;
   margin-bottom: 2rem;
 }
+
+@media (max-width: 425px) {
+  .new {
+    margin-top: 2rem;
+  }
+}
