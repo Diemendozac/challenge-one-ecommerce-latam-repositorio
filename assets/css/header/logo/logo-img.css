@@ -1,4 +1,11 @@
 .logo__img {
   max-height: 2rem;
+  
+}
+
+@media (max-width: 425px) {
+  .logo__img {
+    min-width: 10%
+  }
 
 }

@@ -27,3 +27,9 @@
   }
 
 }
+
+@media (max-width: 425px) {
+  .contact__div {
+    left: 20%;
+  }
+}

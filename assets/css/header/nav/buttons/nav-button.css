@@ -13,3 +13,10 @@
   }
 
 }
+
+@media (max-width: 425px) {
+  .nav__button {
+    order: 2;
+    width: 45%;
+  }
+}

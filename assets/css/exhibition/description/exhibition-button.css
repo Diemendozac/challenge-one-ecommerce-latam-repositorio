@@ -11,3 +11,9 @@
     width: 9rem;
   }
 }
+
+@media (max-width: 425px) {
+  .exhibition__button {
+    height: 1.75rem;
+  }
+}

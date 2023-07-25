@@ -6,3 +6,9 @@
   position: relative;
   top: 31rem;
 }
+
+@media (max-width: 425px) {
+  .footer {
+    display: none;
+  }
+}
