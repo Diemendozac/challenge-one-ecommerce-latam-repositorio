@@ -1,0 +1,27 @@
+.input-container.login {
+  display: none;
+}
+
+.input-container {
+  transition-property:width;
+  display: inline;
+}
+
+.form__switch {
+  font-family: 'Roboto', sans-serif;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.switch__paragraph {
+  color: var(--color-paragraph);
+  margin-right: 1rem;
+}
+
+.switch__link {
+  color: var(--color-titulo);
+  text-decoration: none;
+  cursor: pointer;
+}

@@ -3,7 +3,12 @@ const newRightButton = document.querySelector(".new__right"),
   mostRightButton = document.querySelector(".most__right"),
   mostLeftButton = document.querySelector(".most__left"),
   newUl = document.querySelector(".new__ul"),
-  mostUl = document.querySelector(".most__ul");
+  mostUl = document.querySelector(".most__ul"),
+  loginBtn = document.querySelector(".login__button");
+
+loginBtn.addEventListener("click", () => {
+  window.location.href = "/screens/login.html"
+})
 
 newRightButton.addEventListener("click", () => {
   newUl.scrollLeft += 520;
