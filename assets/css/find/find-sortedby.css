@@ -1,0 +1,13 @@
+.find__sortedby {
+  color: var(--color-paragraph);
+  display: flex;
+  align-items: center;
+  margin-right: 5%;
+}
+
+.sortedby__selector {
+  height: 2rem;
+  border-radius: 10px;
+  border: 1px solid var(--color-paragraph);
+  padding: 5%;
+}

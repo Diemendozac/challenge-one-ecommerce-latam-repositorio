@@ -1,0 +1,9 @@
+.find__results {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
+.new__products {
+  display: grid;
+  grid-column: 2;
+}

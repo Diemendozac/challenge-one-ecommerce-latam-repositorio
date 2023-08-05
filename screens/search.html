@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login</title>
+  <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/assets/css/reset.css" />
+  <link rel="stylesheet" href="/assets/css/root.css" />
+  <link rel="stylesheet" href="/assets/css/header.css" />
+  <link rel="stylesheet" href="/assets/css/header/header-container.css" />
+  <link rel="stylesheet" href="/assets/css/header/logo/logo-container.css" />
+  <link rel="stylesheet" href="/assets/css/header/logo/logo-img.css" />
+  <link rel="stylesheet" href="/assets/css/header/logo/logo-letras.css" />
+  <link rel="stylesheet" href="/assets/css/header/search/search-container.css" />
+  <link rel="stylesheet" href="/assets/css/header/search/search-input.css" />
+  <link rel="stylesheet" href="/assets/css/header/search/search-icon.css" />
+  <link rel="stylesheet" href="/assets/css/header/nav/header-nav.css" />
+  <link rel="stylesheet" href="/assets/css/header/nav/buttons/nav-button.css" />
+  <link rel="stylesheet" href="/assets/css/header/nav/buttons/discover-button.css" />
+  <link rel="stylesheet" href="/assets/css/header/nav/buttons/login-button.css" />
+
+  <link rel="stylesheet" href="/assets/css/product/product-item.css">
+  <link rel="stylesheet" href="/assets/css/product/product-title.css">
+  <link rel="stylesheet" href="/assets/css/product/product-subtitles.css">
+  <link rel="stylesheet" href="/assets/css/product/product-characteristics.css">
+  <link rel="stylesheet" href="/assets/css/product/product-imgcont.css">
+  <link rel="stylesheet" href="/assets/css/product/product-img.css">
+
+  <link rel="stylesheet" href="/assets/css/find/find-title.css">
+  <link rel="stylesheet" href="/assets/css/find/find-container.css">
+  <link rel="stylesheet" href="/assets/css/find/find-header.css">  
+  <link rel="stylesheet" href="/assets/css/find/find-sortedby.css">  
+  <link rel="stylesheet" href="/assets/css/find/find-results.css">
+  <link rel="stylesheet" href="/assets/css/find/find-filters.css">
+  <link rel="stylesheet" href="/assets/css/find/find-scrollbar.css">
+  <link rel="stylesheet" href="/assets/css/find/find-search-filter.css">
+  <link rel="stylesheet" href="/assets/css/find/navbar/find-navbar.css">
+  <link rel="stylesheet" href="/assets/css/find/price/price-bar.css">
+
+  <link rel="stylesheet" href="/assets/css/find/applied/applied-filters.css">
+  <link rel="stylesheet" href="/assets/css/find/applied/applied-condition.css">
+
+
+
+  <link rel="stylesheet" href="/assets/css/footer.css" />
+  <link rel="stylesheet" href="/assets/css/login.css">
+  <link rel="stylesheet" href="/assets/css/footer/footer-alura.css" />
+  <link rel="stylesheet" href="/assets/css/footer/footer-branch.css" />
+  <link rel="stylesheet" href="/assets/css/footer/footer-container.css" />
+  <link rel="stylesheet" href="/assets/css/footer/footer-column.css" />
+  <link rel="stylesheet" href="/assets/css/footer/footer-contact.css" />
+  <link rel="stylesheet" href="/assets/css/footer/footer-copyright.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__container">
+      <div class="logo__container">
+        <img class="logo__img" src="/assets/img/logo-alura.png" alt="logo__alura">
+        <h3 class="logo__letras">ALURABOOKS</h3>
+      </div>
+      <div class="search__container">
+        <input type="text" class="search__input" placeholder="¿Qué libro buscas?">
+        <i class="bx bx-search search__icon"></i>
+      </div>
+      <nav class="header__nav">
+        <button class="nav__button discover__button">Inicio</button>
+        <button class="nav__button login__button">Login</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="find">
+    <h1 class="find__title">Índice > <b>Buscar Libros</b></h1>
+    <div class="find__container">
+      <section class="find__navbar">
+
+        <div class="navbar__container">
+
+          <li class="dropdown__list find__category">
+            <a href="#" class="dropdown__link">
+              <span class="dropdown__span">Categoría</span>
+              <img src="../assets/img/down.svg" class="dropdown__arrow">
+
+              <input type="checkbox" class="dropdown__check">
+            </a>
+
+            <div class="dropdown__content">
+
+              <ul class="dropdown__sub">
+
+                <li class="dropdown__li">
+                  <div class="dropdown__filtersearch">
+                    <div class="findfilter__container">
+                      <input type="text" class="find__searchfilter filtersearch__category">
+                      <i class="bx bx-search find__searchicon"></i>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="dropdown__li">
+                  <div class="dropdown__filtercont">
+                    <input type="checkbox" class="dropdown__filter">
+                    <a href="#" class="dropdown__anchor">Arte</a>
+                  </div>
+                  <div class="dropdown__quantity">
+                    <p class="results">51</p>
+                  </div>
+                </li>
+                <li class="dropdown__li">
+                  <div class="dropdown__filtercont">
+                    <input type="checkbox" class="dropdown__filter">
+                    <a href="#" class="dropdown__anchor">Cine</a>
+                  </div>
+                  <div class="dropdown__quantity">
+                    <p class="results">23</p>
+                  </div>
+                </li>
+                <li class="dropdown__li">
+                  <div class="dropdown__filtercont">
+                    <input type="checkbox" class="dropdown__filter">
+                    <a href="#" class="dropdown__anchor">Ciencia</a>
+                  </div>
+                  <div class="dropdown__quantity">
+                    <p class="results">32</p>
+                  </div>
+                </li>
+                <li class="dropdown__li">
+                  <div class="dropdown__filtercont">
+                    <input type="checkbox" class="dropdown__filter">
+                    <a href="#" class="dropdown__anchor">Literatura</a>
+                  </div>
+                  <div class="dropdown__quantity">
+                    <p class="results">32</p>
+                  </div>
+                </li>
+
+              </ul>
+
+            </div>
+          </li>
+
+          <li class="dropdown__list find__format">
+            <a href="#" class="dropdown__link">
+              <span class="dropdown__span">Formato</span>
+              <img src="../assets/img/down.svg" class="dropdown__arrow">
+
+              <input type="checkbox" class="dropdown__check">
+            </a>
+
+            <div class="dropdown__content">
+
+              <ul class="dropdown__sub">
+
+                <li class="dropdown__li">
+                  <div class="dropdown__filtersearch">
+                    <div class="findfilter__container">
+                      <input type="text" class="find__searchfilter filtersearch__format">
+                      <i class="bx bx-search find__searchicon"></i>
+                    </div>
+                  </div>
+                </li>
+                <li class="dropdown__li">
+                  <div class="dropdown__filtercont">
+                    <input type="checkbox" class="dropdown__filter">
+                    <a href="#" class="dropdown__anchor">Cine</a>
+                  </div>
+                  <div class="dropdown__quantity">
+                    <p class="results">23</p>
+                  </div>
+                </li>
+                <li class="dropdown__li">
+                  <div class="dropdown__filtercont">
+                    <input type="checkbox" class="dropdown__filter">
+                    <a href="#" class="dropdown__anchor">Ciencia</a>
+                  </div>
+                  <div class="dropdown__quantity">
+                    <p class="results">32</p>
+                  </div>
+                </li>
+                <li class="dropdown__li">
+                  <div class="dropdown__filtercont">
+                    <input type="checkbox" class="dropdown__filter">
+                    <a href="#" class="dropdown__anchor">Literatura</a>
+                  </div>
+                  <div class="dropdown__quantity">
+                    <p class="results">32</p>
+                  </div>
+                </li>
+                <li class="dropdown__li">
+                  <div class="dropdown__filtercont">
+                    <input type="checkbox" class="dropdown__filter">
+                    <a href="#" class="dropdown__anchor">Literatura</a>
+                  </div>
+                  <div class="dropdown__quantity">
+                    <p class="results">32</p>
+                  </div>
+                </li>
+                <li class="dropdown__li">
+                  <div class="dropdown__filtercont">
+                    <input type="checkbox" class="dropdown__filter">
+                    <a href="#" class="dropdown__anchor">Literatura</a>
+                  </div>
+                  <div class="dropdown__quantity">
+                    <p class="results">32</p>
+                  </div>
+                </li>
+                <li class="dropdown__li">
+                  <div class="dropdown__filtercont">
+                    <input type="checkbox" class="dropdown__filter">
+                    <a href="#" class="dropdown__anchor">Literatura</a>
+                  </div>
+                  <div class="dropdown__quantity">
+                    <p class="results">32</p>
+                  </div>
+                </li>
+                <li class="dropdown__li">
+                  <div class="dropdown__filtercont">
+                    <input type="checkbox" class="dropdown__filter">
+                    <a href="#" class="dropdown__anchor">Literatura</a>
+                  </div>
+                  <div class="dropdown__quantity">
+                    <p class="results">32</p>
+                  </div>
+                </li>
+
+              </ul>
+
+            </div>
+          </li>
+
+          <li class="dropdown__list find__author">
+            <a href="#" class="dropdown__link">
+              <span class="dropdown__span">Autor</span>
+              <img src="../assets/img/down.svg" class="dropdown__arrow">
+
+              <input type="checkbox" class="dropdown__check">
+            </a>
+
+            <div class="dropdown__content">
+
+              <ul class="dropdown__sub">
+
+                <li class="dropdown__li">
+                  <div class="dropdown__filtersearch">
+                    <div class="findfilter__container">
+                      <input type="text" class="find__searchfilter filtersearch__author">
+                      <i class="bx bx-search find__searchicon"></i>
+                    </div>
+                  </div>
+                </li>
+                <li class="dropdown__li">
+                  <div class="dropdown__filtercont">
+                    <input type="checkbox" class="dropdown__filter">
+                    <a href="#" class="dropdown__anchor">Albert Camus</a>
+                  </div>
+                  <div class="dropdown__quantity">
+                    <p class="results">23</p>
+                  </div>
+                </li>
+                <li class="dropdown__li">
+                  <div class="dropdown__filtercont">
+                    <input type="checkbox" class="dropdown__filter">
+                    <a href="#" class="dropdown__anchor">Emil Cioran</a>
+                  </div>
+                  <div class="dropdown__quantity">
+                    <p class="results">32</p>
+                  </div>
+                </li>
+                <li class="dropdown__li">
+                  <div class="dropdown__filtercont">
+                    <input type="checkbox" class="dropdown__filter">
+                    <a href="#" class="dropdown__anchor">Juan Gabriel Vasquez</a>
+                  </div>
+                  <div class="dropdown__quantity">
+                    <p class="results">32</p>
+                  </div>
+                </li>
+                <li class="dropdown__li">
+                  <div class="dropdown__filtercont">
+                    <input type="checkbox" class="dropdown__filter">
+                    <a href="#" class="dropdown__anchor">Literatura</a>
+                  </div>
+                  <div class="dropdown__quantity">
+                    <p class="results">32</p>
+                  </div>
+                </li>
+                <li class="dropdown__li">
+                  <div class="dropdown__filtercont">
+                    <input type="checkbox" class="dropdown__filter">
+                    <a href="#" class="dropdown__anchor">Literatura</a>
+                  </div>
+                  <div class="dropdown__quantity">
+                    <p class="results">32</p>
+                  </div>
+                </li>
+                <li class="dropdown__li">
+                  <div class="dropdown__filtercont">
+                    <input type="checkbox" class="dropdown__filter">
+                    <a href="#" class="dropdown__anchor">Literatura</a>
+                  </div>
+                  <div class="dropdown__quantity">
+                    <p class="results">32</p>
+                  </div>
+                </li>
+                <li class="dropdown__li">
+                  <div class="dropdown__filtercont">
+                    <input type="checkbox" class="dropdown__filter">
+                    <a href="#" class="dropdown__anchor">Literatura</a>
+                  </div>
+                  <div class="dropdown__quantity">
+                    <p class="results">32</p>
+                  </div>
+                </li>
+
+              </ul>
+
+            </div>
+          </li>
+
+
+          <li class="dropdown__list find__price">
+            <a href="#" class="dropdown__link">
+              <span class="dropdown__span">Precio</span>
+              <img src="../assets/img/down.svg" class="dropdown__arrow">
+
+              <input type="checkbox" class="dropdown__check">
+            </a>
+
+            <div class="dropdown__content">
+
+              <ul class="dropdown__sub">
+
+                <div class="find-param wrapper">
+            
+                  <header>
+                    <h2>Price Range</h2>
+                  </header>
+                  <div class="price-input">
+                    <div class="field">
+                      <span>Min</span>
+                      <input type="number" class="input-min" value="0">
+                    </div>
+                    <div class="separator">-</div>
+                    <div class="field">
+                      <span>Max</span>
+                      <input type="number" class="input-max" value="7500">
+                    </div>
+                  </div>
+                  <div class="slider">
+                    <div class="progress"></div>
+                  </div>
+                  <div class="range-input">
+                    <input type="range" class="range-min" min="0" max="10000" value="2500" step="100">
+                    <input type="range" class="range-max" min="0" max="10000" value="7500" step="100">
+                  </div>
+                  
+                </div>
+
+              </ul>
+
+            </div>
+          </li>
+        </div>
+
+      </section>
+
+
+      <section class="find__products">
+        <div class="find__header">
+          <p>Resultados: 9 de 37 para ${Búsqueda}</p>
+          <div class="find__sortedby">
+            <p>Orden:</p>
+            <select name="" id="" class="sortedby__selector">
+              <option value="">Novedad</option>
+              <option value="">Precio</option>
+              <option value="">Relevancia</option>
+              <option value="">Descuento</option>
+            </select>
+          </div>
+        </div>
+      </section>
+
+      <div class="find__filters">
+          <h3 class="applied__header">Filtros aplicados: </h3>
+          <ul class="applied__search">
+            <li class="applied__filter">
+              <div class="applied__condition">
+                <p class="applied__argument">Mandrágora</p>
+                <i class="bx bx-x cancel__icon"></i>
+              </div>
+            </li>
+            <li class="applied__filter">
+              <div class="applied__condition">
+                <p class="applied__argument">Mandrágora</p>
+                <i class="bx bx-x cancel__icon"></i>
+              </div>
+            </li>
+            <li class="applied__filter">
+              <div class="applied__condition">
+                <p class="applied__argument">Mandrágora</p>
+                <i class="bx bx-x cancel__icon"></i>
+              </div>
+            </li>
+          </ul>
+      </div>
+
+      <div class="new__products">
+        <ul class="products find__results">
+          <li class="product__item">
+            <div class="product__imgcont">
+              <img class="product__img" src="/assets/img/4792408-removebg-preview.png" alt="libro-lentes">
+            </div>
+            <h4 class="product__title">Paradigmas constructivos para personas deconstructivistas.</h4>
+            <div class="product__info">
+              <div class="product__subtitles">
+                <h5>Writter</h5>
+                <h5>Buy Now</h5>
+              </div>
+              <div class="product__characteristics">
+                <p>Joao Donato</p>
+                <p>$20.00</p>
+              </div>
+            </div>
+          </li>
+          <li class="product__item">
+            <div class="product__imgcont">
+              <img class="product__img" src="/assets/img/17908330-removebg-preview.png" alt="libro-lentes">
+            </div>
+            <h4 class="product__title">Lo que los pájaros se llevaron, jajaja</h4>
+            <div class="product__info">
+              <div class="product__subtitles">
+                <h5>Writter</h5>
+                <h5>Buy Now</h5>
+              </div>
+              <div class="product__characteristics">
+                <p>Joao Donato</p>
+                <p>$20.00</p>
+              </div>
+            </div>
+          </li>
+          <li class="product__item">
+            <div class="product__imgcont">
+              <img class="product__img" src="/assets/img/4792408-removebg-preview.png" alt="libro-lentes">
+            </div>
+            <h4 class="product__title">Lo que los pájaros se llevaron, jajaja</h4>
+            <div class="product__info">
+              <div class="product__subtitles">
+                <h5>Writter</h5>
+                <h5>Buy Now</h5>
+              </div>
+              <div class="product__characteristics">
+                <p>Joao Donato</p>
+                <p>$20.00</p>
+              </div>
+            </div>
+          </li>
+          <li class="product__item">
+            <div class="product__imgcont">
+              <img class="product__img" src="/assets/img/4429038-removebg-preview.png" alt="libro-lentes">
+            </div>
+            <h4 class="product__title">Lo que los pájaros se llevaron, jajajaasdasdasdasdasdasdasd</h4>
+            <div class="product__info">
+              <div class="product__subtitles">
+                <h5>Writter</h5>
+                <h5>Buy Now</h5>
+              </div>
+              <div class="product__characteristics">
+                <p>Joao Donato</p>
+                <p>$20.00</p>
+              </div>
+            </div>
+          </li>
+          <li class="product__item">
+            <div class="product__imgcont">
+              <img class="product__img" src="/assets/img/4824032-removebg-preview.png" alt="libro-lentes">
+            </div>
+            <h4 class="product__title">Lo que los pájaros se llevaron, jajaja</h4>
+            <div class="product__info">
+              <div class="product__subtitles">
+                <h5>Writter</h5>
+                <h5>Buy Now</h5>
+              </div>
+              <div class="product__characteristics">
+                <p>Joao Donato</p>
+                <p>$20.00</p>
+              </div>
+            </div>
+          </li>
+          <li class="product__item">
+            <div class="product__imgcont">
+              <img class="product__img" src="/assets/img/17908330-removebg-preview.png" alt="libro-lentes">
+            </div>
+            <h4 class="product__title">Lo que los pájaros se llevaron, jajaja</h4>
+            <div class="product__info">
+              <div class="product__subtitles">
+                <h5>Writter</h5>
+                <h5>Buy Now</h5>
+              </div>
+              <div class="product__characteristics">
+                <p>Joao Donato</p>
+                <p>$20.00</p>
+              </div>
+            </div>
+          </li>
+          <li class="product__item">
+            <div class="product__imgcont">
+              <img class="product__img" src="/assets/img/4429038-removebg-preview.png" alt="libro-lentes">
+            </div>
+            <h4 class="product__title">Lo que los pájaros se llevaron, jajaja</h4>
+            <div class="product__info">
+              <div class="product__subtitles">
+                <h5>Writter</h5>
+                <h5>Buy Now</h5>
+              </div>
+              <div class="product__characteristics">
+                <p>Joao Donato</p>
+                <p>$20.00</p>
+              </div>
+            </div>
+          </li>
+          <li class="product__item">
+            <div class="product__imgcont">
+              <img class="product__img" src="/assets/img/4792408-removebg-preview.png" alt="libro-lentes">
+            </div>
+            <h4 class="product__title">Lo que los pájaros se llevaron, jajaja</h4>
+            <div class="product__info">
+              <div class="product__subtitles">
+                <h5>Writter</h5>
+                <h5>Buy Now</h5>
+              </div>
+              <div class="product__characteristics">
+                <p>Joao Donato</p>
+                <p>$20.00</p>
+              </div>
+            </div>
+          </li>
+          <li class="product__item">
+            <div class="product__imgcont">
+              <img class="product__img" src="/assets/img/4824032-removebg-preview.png" alt="libro-lentes">
+            </div>
+            <h4 class="product__title">Lo que los pájaros se llevaron, jajaja</h4>
+            <div class="product__info">
+              <div class="product__subtitles">
+                <h5>Writter</h5>
+                <h5>Buy Now</h5>
+              </div>
+              <div class="product__characteristics">
+                <p>Joao Donato</p>
+                <p>$20.00</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      </section>
+
+    </div>
+  </main>
+
+
+
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__branch">
+        <div class="footer__alura">
+          <img class="footer__img" src="/assets/img/logo-alura.png" alt="logo__alura">
+          <h3 class="footer__letras">AluraBooks</h3>
+        </div>
+        <p class="branch__slogan">Literatura de tu agrado a un click de distancia</p>
+      </div>
+      <div class="footer__column">
+        <h3 class="footer__title">Shop</h3>
+        <a class="footer__link" href="">All collections</a>
+        <a class="footer__link" href="">Best Rated</a>
+        <a class="footer__link" href="">Discount Rated</a>
+      </div>
+      <div class="footer__column">
+        <h3 class="footer__title">Company</h3>
+        <a class="footer__link" href="">About Us</a>
+        <a class="footer__link" href="">Contact</a>
+        <a class="footer__link" href="">Affiliates</a>
+      </div>
+      <div class="footer__column">
+        <h3 class="footer__title">Support</h3>
+        <a class="footer__link" href="">FAQs</a>
+        <a class="footer__link" href="">Cookie Policy</a>
+        <a class="footer__link" href="">Terms of Use</a>
+      </div>
+      <div class="footer__column">
+        <h3 class="footer__title">Follow Us</h3>
+        <div class="contact__container footer__link">
+          <i class="bx bxl-github w3-xxlarge footer__icon" size="lg"></i>
+          <a href="" class="footer__networks">Github</a>
+        </div>
+        <div class="contact__container footer__link">
+          <i class="bx bxl-instagram w3-xxlarge footer__icon" size="lg"></i>
+          <a href="" class="footer__networks">Instagram</a>
+        </div>
+        <div class="contact__container footer__link">
+          <i class="bx bxl-linkedin w3-xxlarge footer__icon" size="lg"></i>
+          <a href="" class="footer__networks">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__copyright">
+      <p class="copyright__paragraph">Copyright &#169 2023.AluraBooks. All rights reserved</p>
+      <p class="copyright__paragraph">Desarrollado por Diego Mendoza</p>
+    </div>
+  </footer>
+  <script type="module" src="/controllers/search-controller.js"></script>
+</body>
+
+</html>

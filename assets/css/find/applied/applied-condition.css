@@ -1,0 +1,9 @@
+.applied__condition {
+  background-color: #fafafa;
+  border-radius: 10px;
+  height: 1.5rem;
+  border: 1px solid var(--color-paragraph);
+  display: flex;
+  align-items: center;
+  padding: 5%;
+}

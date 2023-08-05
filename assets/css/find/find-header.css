@@ -1,0 +1,9 @@
+.find__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.find__sortedby {
+  display: flex;
+}
