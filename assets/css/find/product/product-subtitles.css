@@ -1,0 +1,7 @@
+.product__subtitles {
+  padding: 0.25rem 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  color: var(--color-paragraph);
+  font-size: 0.8rem;
+}

@@ -1,0 +1,12 @@
+.product__img {
+  height: 250px;
+  width: 250px;
+}
+
+@media (max-width: 1075px) {
+  .product__img {
+    height: 200px;
+    width: 200px;
+  }
+
+}
