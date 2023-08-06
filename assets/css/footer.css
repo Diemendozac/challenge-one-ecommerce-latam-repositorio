@@ -5,6 +5,7 @@
   padding: 3rem;
   position: relative;
   top: 31rem;
+  font-family: 'Roboto', sans-serif;
 }
 
 @media (max-width: 525px) {

@@ -1,5 +1,6 @@
 .find__container {
   display: grid;
   grid-template-columns: 20% auto;
-  grid-template-rows: 2rem 3rem 1000px;
+  grid-template-rows: 2rem 3rem auto;
+  margin-bottom: 2rem;
 }

@@ -1,6 +1,6 @@
 .find__results {
   display: grid;
-  grid-template-columns: 33% 33% 33%;
+  grid-template-columns: auto auto auto auto;
 }
 
 .new__products {

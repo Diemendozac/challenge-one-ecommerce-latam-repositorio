@@ -110,6 +110,7 @@
   justify-content: center;
   align-items: center;
   font-size: 0.75rem;
+  font-weight: 700;
 }
 
 .dropdown__filter[type="checkbox"] {
