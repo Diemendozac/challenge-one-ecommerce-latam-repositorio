@@ -42,3 +42,15 @@
 .black__button {
   margin: 0 0.25rem;
 }
+
+@media (max-width: 1024px) {
+  .product__item {
+    width: 175px;
+    height: 300px;
+  }
+
+  .product__img {
+    width: 200px;
+    height: 200px;
+  }
+}
