@@ -15,3 +15,9 @@
 .applied__argument {
   margin-left: 6px
 }
+
+@media (max-width: 768px) {
+  .applied__header {
+    font-size: 0.85rem;
+  }
+}

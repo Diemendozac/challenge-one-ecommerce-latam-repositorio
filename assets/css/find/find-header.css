@@ -10,3 +10,9 @@
 .find__sortedby {
   display: flex;
 }
+
+@media (max-width: 768px) {
+  .find__header {
+    font-size: 0.85rem;
+  }
+}

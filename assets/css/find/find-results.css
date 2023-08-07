@@ -7,3 +7,9 @@
   display: grid;
   grid-column: 2;
 }
+
+@media (max-width: 768px) {
+  .find__results {
+    grid-template-columns: auto auto auto;
+  }
+}

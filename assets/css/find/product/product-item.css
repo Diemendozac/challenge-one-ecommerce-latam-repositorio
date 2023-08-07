@@ -1,9 +1,25 @@
 .product__item {
   margin: 0 0.5rem;
-  width: 260px;
-  height: 370px;
+  width: 200px;
+  height: 350px;
+  margin-bottom: 0.5rem;
 }
 
 .product__item:hover {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+@media (max-width: 1024px) {
+  .product__item {
+    width: 170px;
+    height: 260px;
+    margin-bottom: 0.025rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .product__item {
+    width: 150px;
+    height: 230px;
+  }
 }

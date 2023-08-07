@@ -1,0 +1,17 @@
+.product__navbuttons {
+  grid-column: 1/5;
+  grid-row: 4;
+  display: flex;
+  justify-content: center;
+}
+
+.product__buttons {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .product__navbuttons {
+    grid-column: 1/4;
+    grid-row: 4;
+  }
+}

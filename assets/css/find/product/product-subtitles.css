@@ -3,5 +3,17 @@
   display: flex;
   justify-content: space-between;
   color: var(--color-paragraph);
-  font-size: 0.8rem;
+  font-size: 0.75rem;
+}
+
+@media (max-width: 1024px) {
+  .product__subtitles {
+    font-size: 0.65rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .product__subtitles {
+    font-size: 0.55rem;
+  }
 }

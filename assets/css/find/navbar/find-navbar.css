@@ -136,3 +136,26 @@
   align-items: center;
 }
 
+@media (max-width: 1024px) {
+  .dropdown__anchor {
+    font-size: 0.9rem;
+  }
+
+  .dropdown__filter {
+    width: 1.125rem;
+    height: 1.125rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .dropdown__link {
+    font-size: 0.9rem;
+  }
+
+  .dropdown__anchor {
+    font-size: 0.8rem;
+  }
+
+
+  
+}

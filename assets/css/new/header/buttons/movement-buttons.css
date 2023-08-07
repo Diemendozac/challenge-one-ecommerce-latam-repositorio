@@ -8,6 +8,7 @@
 
 @media (max-width: 768px) {
   .movement__buttons {
-    display: none;
+    height: 1.5rem;
+    width: 1.5rem;
   }
 }
