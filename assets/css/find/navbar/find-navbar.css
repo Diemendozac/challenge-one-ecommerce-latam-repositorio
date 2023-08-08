@@ -156,6 +156,31 @@
     font-size: 0.8rem;
   }
 
+}
 
+@media (max-width: 525px) {
+  .find__navbar {
+    position: fixed;
+    width: 100vw;
+    height: 100%;
+    z-index: 2;
+    background: rgba(0,0,0,0.4);
+    opacity: 0;
+    display: none;
+  }
+
+  .find__navbar.show {
+    transition: all 0.25s ease;
+    opacity: 1;
+    pointer-events: auto;
+    display: block;
+    top: 0;
+  }
+
+  .navbar__container {
+    background: #fafafa;
+    width: 60%;
+    height: 100%;
+  }
   
 }

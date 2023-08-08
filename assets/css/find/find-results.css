@@ -13,3 +13,9 @@
     grid-template-columns: auto auto auto;
   }
 }
+
+@media (max-width: 525px) {
+  .find__results {
+    grid-template-columns: auto auto;
+  }
+}

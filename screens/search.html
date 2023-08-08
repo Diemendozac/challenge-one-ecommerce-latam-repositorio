@@ -25,6 +25,9 @@
   <link rel="stylesheet" href="/assets/css/header/nav/buttons/discover-button.css" />
   <link rel="stylesheet" href="/assets/css/header/nav/buttons/login-button.css" />
 
+  <link rel="stylesheet" href="/assets/css/exhibition/description/exhibition-buttoncont.css">
+  <link rel="stylesheet" href="/assets/css/exhibition/description/exhibition-button.css">
+  <link rel="stylesheet" href="/assets/css/exhibition/exhibition-icon.css">
   <link rel="stylesheet" href="/assets/css/find/product/product-item.css">
   <link rel="stylesheet" href="/assets/css/find/product/product-title.css">
   <link rel="stylesheet" href="/assets/css/find/product/product-subtitles.css">
@@ -36,6 +39,7 @@
   <link rel="stylesheet" href="/assets/css/new/header/buttons/left-button.css">
 
   <link rel="stylesheet" href="/assets/css/find/find-title.css">
+  <link rel="stylesheet" href="/assets/css/find/find-head.css">
   <link rel="stylesheet" href="/assets/css/find/find-container.css">
   <link rel="stylesheet" href="/assets/css/find/find-header.css">  
   <link rel="stylesheet" href="/assets/css/find/find-sortedby.css">  
@@ -83,11 +87,56 @@
   </header>
 
   <main class="find">
-    <h1 class="find__title">Índice > <b>Buscar Libros</b></h1>
+    <div class="find__head">
+      <h1 class="find__title">Índice > <b>Buscar Libros</b></h1>
+      <div class="exhibition__buttoncont">
+        <button class="exhibition__button">Filtrar</button>
+        <i class="bx bx-filter exhibition__icon"></i>
+      </div>
+    </div>
+    
     <div class="find__container">
       <section class="find__navbar">
 
         <div class="navbar__container">
+          
+          <li class="dropdown__list find__orderedby">
+            <a href="#" class="dropdown__link">
+              <span class="dropdown__span">Ordenado por</span>
+              <img src="../assets/img/down.svg" class="dropdown__arrow">
+
+              <input type="checkbox" class="dropdown__check">
+            </a>
+
+            <div class="dropdown__content">
+
+              <ul class="dropdown__sub">
+
+                <li class="dropdown__li">
+                  <div class="dropdown__filtercont">
+                    <a href="#" class="dropdown__anchor">Relevancia</a>
+                  </div>
+                </li>
+                <li class="dropdown__li">
+                  <div class="dropdown__filtercont">
+                    <a href="#" class="dropdown__anchor">Novedad</a>
+                  </div>
+                </li>
+                <li class="dropdown__li">
+                  <div class="dropdown__filtercont">
+                    <a href="#" class="dropdown__anchor">Precio</a>
+                  </div>
+                </li>
+                <li class="dropdown__li">
+                  <div class="dropdown__filtercont">
+                    <a href="#" class="dropdown__anchor">Descuento</a>
+                  </div>
+                </li>
+
+              </ul>
+
+            </div>
+          </li>
 
           <li class="dropdown__list find__category">
             <a href="#" class="dropdown__link">
@@ -466,10 +515,13 @@
 
       </section>
 
+      
 
       <section class="find__products">
         <div class="find__header">
-          <p>Resultados: 9 de 37 para ${Búsqueda}</p>
+          <p>Resultados: 9 de 37</p>
+          
+          <!--
           <div class="find__sortedby">
             <p>Orden:</p>
             <select name="" id="" class="sortedby__selector">
@@ -479,6 +531,7 @@
               <option value="">Descuento</option>
             </select>
           </div>
+          -->
         </div>
       </section>
 

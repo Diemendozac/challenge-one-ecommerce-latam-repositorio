@@ -19,5 +19,6 @@
   .nav__button {
     order: 2;
     width: 45%;
+    height: 2.2rem;
   }
 }

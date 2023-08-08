@@ -6,9 +6,15 @@ filterSearchCategory = document.querySelector(".filtersearch__category"),
 filterSearchFormat = document.querySelector(".filtersearch__format"),
 filterSearchAuthor = document.querySelector(".filtersearch__author"),
 filterCheck = document.querySelectorAll(".dropdown__filter"),
-appliedSearchFilters = document.querySelector(".applied__search");
+appliedSearchFilters = document.querySelector(".applied__search"),
+filterButton = document.querySelector(".exhibition__button"),
+findNavBar = document.querySelector(".find__navbar");
 
 setFilterChecks();
+
+filterButton.addEventListener("click", () => {
+    findNavBar.classList.add("show");
+})
 
 
 let priceGap = 1000;
