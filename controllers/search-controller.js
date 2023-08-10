@@ -8,12 +8,18 @@ filterSearchAuthor = document.querySelector(".filtersearch__author"),
 filterCheck = document.querySelectorAll(".dropdown__filter"),
 appliedSearchFilters = document.querySelector(".applied__search"),
 filterButton = document.querySelector(".exhibition__button"),
-findNavBar = document.querySelector(".find__navbar");
+findNavBar = document.querySelector(".find__navbar"),
+navBarExit = document.querySelector(".find__exit"),
+navBarContainer = document.querySelector(".navbar__container");
 
 setFilterChecks();
 
 filterButton.addEventListener("click", () => {
     findNavBar.classList.add("show");
+})
+
+navBarExit.addEventListener("click", () => {
+    findNavBar.classList.remove("show");
 })
 
 

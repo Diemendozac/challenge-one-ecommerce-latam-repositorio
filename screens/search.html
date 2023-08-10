@@ -40,6 +40,7 @@
 
   <link rel="stylesheet" href="/assets/css/find/find-title.css">
   <link rel="stylesheet" href="/assets/css/find/find-head.css">
+  <link rel="stylesheet" href="/assets/css/find/find-exit.css">
   <link rel="stylesheet" href="/assets/css/find/find-container.css">
   <link rel="stylesheet" href="/assets/css/find/find-header.css">  
   <link rel="stylesheet" href="/assets/css/find/find-sortedby.css">  
@@ -47,6 +48,7 @@
   <link rel="stylesheet" href="/assets/css/find/find-filters.css">
   <link rel="stylesheet" href="/assets/css/find/find-scrollbar.css">
   <link rel="stylesheet" href="/assets/css/find/find-search-filter.css">
+  
   <link rel="stylesheet" href="/assets/css/find/navbar/find-navbar.css">
   <link rel="stylesheet" href="/assets/css/find/price/price-bar.css">
   <link rel="stylesheet" href="/assets/css/find/product/product-decorator.css">
@@ -96,10 +98,12 @@
     </div>
     
     <div class="find__container">
+
       <section class="find__navbar">
+        
 
         <div class="navbar__container">
-          
+          <i size="lg" class="bx bx-right-arrow-alt find__exit"></i>
           <li class="dropdown__list find__orderedby">
             <a href="#" class="dropdown__link">
               <span class="dropdown__span">Ordenado por</span>
@@ -737,7 +741,7 @@
         <a class="footer__link" href="">Cookie Policy</a>
         <a class="footer__link" href="">Terms of Use</a>
       </div>
-      <div class="footer__column">
+      <div class="footer__column" id="contact__column">
         <h3 class="footer__title">Follow Us</h3>
         <div class="contact__container footer__link">
           <i class="bx bxl-github w3-xxlarge footer__icon" size="lg"></i>

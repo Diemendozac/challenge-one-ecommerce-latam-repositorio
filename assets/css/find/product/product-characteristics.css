@@ -18,3 +18,9 @@
     font-size: 0.65rem;
   }
 }
+
+@media (max-width: 525px) {
+  .product__characteristics {
+    font-size: 0.7rem;
+  }
+}

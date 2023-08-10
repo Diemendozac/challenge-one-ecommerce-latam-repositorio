@@ -20,5 +20,6 @@
   .product__navbuttons {
     grid-column: 1/3;
     grid-row: 7;
+    margin-top: 1rem;
   }
 }

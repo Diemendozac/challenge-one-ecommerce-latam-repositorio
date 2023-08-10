@@ -3,3 +3,9 @@
   align-items: center;
   margin-left: 2%;
 }
+
+@media (max-width: 525px) {
+  .logo__container {
+    margin-left: 5%;
+  }
+}

@@ -1,0 +1,15 @@
+.find__exit {
+  font-size: 2rem;
+  margin-right: 0.25rem;
+  color: var(--color-titulo);
+  display: none;
+}
+
+@media (max-width: 525px) {
+  .find__exit {
+    display: flex;
+    justify-content: flex-end;
+    background: rgba(0,0,0,.01);
+
+  }
+}

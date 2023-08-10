@@ -16,3 +16,11 @@
     font-size: 0.85rem;
   }
 }
+
+@media (max-width: 525px) {
+  .find__header {
+    font-size: 0.75rem;
+    color: var(--color-paragraph);
+    margin-bottom: 0.75rem;
+  }
+}

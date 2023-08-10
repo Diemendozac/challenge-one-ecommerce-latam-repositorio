@@ -7,3 +7,10 @@
   align-items: center;
   padding: 2px;
 }
+
+@media (max-width: 525px) {
+  .applied__condition{
+    height: 1.25rem;
+    margin: 0.33rem 0;
+  }
+}

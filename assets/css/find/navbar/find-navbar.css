@@ -181,6 +181,7 @@
     background: #fafafa;
     width: 60%;
     height: 100%;
+    overflow: auto;
   }
   
 }

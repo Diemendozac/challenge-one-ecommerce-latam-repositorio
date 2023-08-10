@@ -23,4 +23,11 @@
   }
 }
 
+@media (max-width: 525px) {
+  .product__title {
+    font-size: 0.8rem;
+    height: 1.7rem;
+  }
+}
+
 

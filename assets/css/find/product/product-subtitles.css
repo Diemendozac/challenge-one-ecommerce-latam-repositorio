@@ -17,3 +17,9 @@
     font-size: 0.55rem;
   }
 }
+
+@media (max-width: 525px) {
+  .product__subtitles {
+    font-size: 0.6rem;
+  }
+}

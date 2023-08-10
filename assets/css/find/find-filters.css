@@ -7,4 +7,16 @@
 
 .applied__search {
   display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 525px) {
+  .find__filters {
+    flex-direction: column;
+  }
+
+  .applied__search {
+    justify-content: center;
+    margin: 0.5rem 0 1rem 0;
+  }
 }

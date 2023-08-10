@@ -23,3 +23,10 @@
     height: 230px;
   }
 }
+
+@media (max-width: 525px) {
+  .product__item {
+    width: 175px;
+    height: 270px;
+  }
+}

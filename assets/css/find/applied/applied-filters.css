@@ -21,3 +21,11 @@
     font-size: 0.85rem;
   }
 }
+
+@media (max-width: 525px) {
+  .applied__argument {
+    font-size: 0.8rem;
+    margin-right: 2px;
+
+  }
+}
